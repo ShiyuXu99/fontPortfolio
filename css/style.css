@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16pt; /* test for this! Make all sizes em or rem */
+    background-color: #0B1630;
+}
+
+h1{
+    font-size: 2em;
+    text-align: center;
+    /*line-height: 2;*/
+    color: white;
+    padding: 10px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    font-size: 16px;
+    background-color: #0B1630;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #0B1630;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: auto;
+}
+
+.dropdown .dropdownBtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 24px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropdownBtn {
+    background-color: #6ADEFA;
+}
+
+.dropdown-content {
+    /*display: none;*/
+    position: absolute;
+    background-color: #0B1630;
+    min-width: 138px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.dropdown-content a {
+    text-align: center;
+    font-size: 14px;
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #2A3550;
+    text-decoration: underline;
+    color: white;
+    /*transform: translateY(0);*/
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1.5s, visibility 1.5s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropdown:hover .dropdown-content {
+        -webkit-transition: none;
+    }
+}
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    background-color: #2A3550;
+    width: 80%;
+    max-width: 800px;
+    margin: 10px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    /*padding: 10px;*/
+}
+.grid-item {
+
+    padding: 20px;
+}
+.grid-item-text{
+    padding: 15px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+/*Begin your code here*/
+/*Keyframes for animation*/
+
+/*@-webkit-keyframes logo_wiggle{*/
+/*    !*Your code here.*!*/
+/*    0% {width: 25px;}*/
+/*    100% {width: 420px;}*/
+/*}*/
+
+/*@keyframes logo_wiggle{*/
+/*    !*Your code here.*!*/
+/*    0% {width: 25px;}*/
+/*    100% {width: 420px;}*/
+/*}*/
+
+/*#logo{*/
+/*    !*Your code here.*!*/
+/*    animation: logo_wiggle 15s;*/
+/*}*/
+
+
+
+
+/*@media screen and (min-width: 850px){*/
+
+/*!*Your code here again.*!*/
+/*!*Add media query to handle reduced-motion*!*/
+/*@media (prefers-reduced-motion) {*/
+/*    #logo {*/
+/*        animation: none;*/
+/*    }*/
+/*}*/
