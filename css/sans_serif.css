@@ -1,28 +1,49 @@
 body{
-    font-family: 'Montserrat', sans-serif;    margin: 0;
-    padding: 0;
-    font-size: 16pt; /* test for this! Make all sizes em or rem */
-}
-
-h1{
-    font-size: 2em;
-    text-align: center;
-    line-height: 2;
-}
-
-h2{
-    font-size: 1.5em;
-    text-align: center;
-    padding: 5px;
-}
-
-p {
-    padding: 0 30px;
+    /*font-family: 'Montserrat', sans-serif;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: 16pt; !* test for this! Make all sizes em or rem *!*/
+    background-color: #0E2026;
 }
 
 footer{
-    background-color: black;
+    font-size: 16px;
+    background-color: #0E2026;
     color: white;
     padding: 30px;
     text-align: center;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #0E2026;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropdownBtn {
+    background-color: #70CBCB;
+}
+
+
+
+.dropdown-content a:hover {
+    background-color: #2C5159;
+    text-decoration: underline;
+    color: white;
+    /*transform: translateY(0);*/
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity 1.5s, visibility 1.5s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dropdown:hover .dropdown-content {
+        -webkit-transition: none;
+    }
 }

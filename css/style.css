@@ -34,15 +34,18 @@ footer{
 .navbar {
     overflow: hidden;
     background-color: #0B1630;
+
 }
 
 .navbar a {
-    float: left;
+    /*float: left;*/
+    margin-right: 0;
     font-size: 16px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 .dropdown {
@@ -108,9 +111,6 @@ footer{
 }
 
 
-
-
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -133,7 +133,6 @@ footer{
     /*padding: 10px;*/
 }
 .grid-item {
-
     padding: 20px;
 }
 .grid-item-text{
@@ -141,6 +140,14 @@ footer{
     padding-bottom: 30px;
     font-size: 16px;
     color: white;
+}
+
+.directionBtn{
+    position: fixed;
+    top:90%;
+    left: 1%;
+    font-size: 12px;
+    /*opacity: 0.5;*/
 }
 
 
