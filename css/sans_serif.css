@@ -4,11 +4,8 @@ body{
 }
 
 footer{
-    font-size: 16px;
     background-color: #0E2026;
-    color: white;
-    padding: 30px;
-    text-align: center;
+
 }
 
 
@@ -79,7 +76,10 @@ ul {
     color: white;
     font-size: 14px;
 }
+ a.visitLink{
+     color: white;
+ }
 
-.link a:visited{
-    color: #DBDBDB;
+a.visitLink:visited{
+    color: lightgrey;
 }

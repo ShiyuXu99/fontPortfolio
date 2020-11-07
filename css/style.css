@@ -39,7 +39,7 @@ footer{
 
 .logo{
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 24px;
+    font-size: 30px;
 }
 ul {
     list-style-type: none;
@@ -156,6 +156,7 @@ ul a:hover, .dropdown:hover .dropdownBtn {
     padding: 20px;
 }
 .grid-item-text{
+    width: auto;
     padding: 15px;
     padding-bottom: 30px;
     font-size: 16px;
