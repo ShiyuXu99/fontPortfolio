@@ -38,7 +38,7 @@ footer{
 /*}*/
 
 .logo{
-    font-family: "Brush Script MT";
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 24px;
 }
 ul {
@@ -48,13 +48,9 @@ ul {
     overflow: hidden;
     background-color: #0B1630;
     font-size: 18px;
-    display: inline-block;
-
 }
 li {
     float: left;
-    display: inline-block;
-
 }
 
 li a, .dropdownBtn {
@@ -72,7 +68,6 @@ li a, .dropdownBtn {
 .dropdown {
     float: right;
     overflow: auto;
-    align-items: center;
 }
 
 .dropdown .dropdownBtn {
