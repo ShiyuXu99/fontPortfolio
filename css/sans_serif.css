@@ -1,8 +1,5 @@
 body{
-    /*font-family: 'Montserrat', sans-serif;*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-    /*font-size: 16pt; !* test for this! Make all sizes em or rem *!*/
+
     background-color: #0E2026;
 }
 
@@ -16,17 +13,9 @@ footer{
 
 
 
-
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     background-color: #0E2026;
-    font-size: 18px;
-}
-li {
-    float: left;
+
 }
 
 
@@ -38,8 +27,6 @@ li {
 
 .dropdown-content a:hover {
     background-color: #2C5159;
-    text-decoration: underline;
-    color: white;
     /*transform: translateY(0);*/
 }
 
@@ -86,3 +73,9 @@ li {
     color:#85E2E2;
 }
 
+
+.links{
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}

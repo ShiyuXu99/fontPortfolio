@@ -44,10 +44,11 @@ footer{
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     overflow: hidden;
     background-color: #0B1630;
-    font-size: 18px;
+    font-size: 16px;
+    padding:14px 24px;
 }
 li {
     float: left;
@@ -62,6 +63,7 @@ li a, .dropdownBtn {
 }
 
 .aboutPage{
+    padding-top: 2.5px;
     float: right;
 }
 
@@ -126,6 +128,9 @@ ul a:hover, .dropdown:hover .dropdownBtn {
 }
 
 
+.images{
+    min-width: 150px;
+}
 .flex-container {
     display: flex;
     flex-direction: column;
