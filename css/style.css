@@ -31,26 +31,44 @@ footer{
     text-align: center;
 }
 
-.navbar {
+/*.navbar {*/
+/*    overflow: hidden;*/
+/*    background-color: #0B1630;*/
+
+/*}*/
+
+.logo{
+    font-family: "Brush Script MT";
+    font-size: 24px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #0B1630;
-
+    font-size: 18px;
+}
+li {
+    float: left;
 }
 
-.navbar a {
-    /*float: left;*/
-    margin-right: 0;
-    font-size: 16px;
+li a, .dropdownBtn {
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
+}
 
+.aboutPage{
+    float: right;
 }
 
 .dropdown {
     float: right;
     overflow: auto;
+    align-items: center;
 }
 
 .dropdown .dropdownBtn {
@@ -64,18 +82,18 @@ footer{
     margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropdownBtn {
-    background-color: #6ADEFA;
+
+
+ul a:hover, .dropdown:hover .dropdownBtn {
+    color: #6ADEFA;
 }
 
 .dropdown-content {
-    /*display: none;*/
     position: absolute;
     background-color: #0B1630;
     min-width: 138px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
     visibility: hidden;
     opacity: 0;
 }
@@ -93,9 +111,7 @@ footer{
     background-color: #2A3550;
     text-decoration: underline;
     color: white;
-    /*transform: translateY(0);*/
 }
-
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -145,9 +161,9 @@ footer{
 .directionBtn{
     position: fixed;
     top:90%;
-    left: 1%;
+    left: 2%;
     font-size: 12px;
-    /*opacity: 0.5;*/
+    opacity: 0.5;
 }
 
 

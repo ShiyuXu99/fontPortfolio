@@ -14,25 +14,46 @@
 <body>
 <header>
 <!--    <img src="images/logo.png" alt="logo" id = "logo">-->
-    <div class="navbar">
-        <div class="dropdown">
-            <button class="dropdownBtn">CONTENTS</button>
-            <div class="dropdown-content">
-                <a href="./index.html">Homepage</a>
-                <a href="./serif.html">Serif </br>Typeface</a>
-                <a href="./script.html">Script </br> Typeface</a>
-            </div>
-        </div>
-    </div>
+    <ul>
+        <li><a href="./index.html" class = "logo">Typography</a></li>
+        <li class="dropdown">
+                <button class="dropdownBtn">CONTENTS</button>
+                <div class="dropdown-content">
+                    <a href="./index.html">Homepage</a>
+                    <a href="./serif.html">Serif </br>Typeface</a>
+                    <a href="./script.html">Script </br> Typeface</a>
+                </div>
+        <li class = "aboutPage"><a href="about.html" >About</a></li>
+        </li>
+    </ul>
+
+
 </header>
 <main class="about" id="skip" tabindex="0">
     <h1>Sans Serif Fonts</h1>
+    <p id = "introductionP">In typography and lettering, a sans-serif, sans serif, gothic, or simply sans letterform is one that does not have extending features called "serifs" at the end of strokes.
+        Sans-serif fonts tend to have less stroke width variation than serif fonts.
+        They are often used to convey simplicity and modernity or minimalism.</p>
+    <div class="container">
+        <div class="gridItems">
+            <article>
+                <img src="./images/Helvetica.png" >
+                <div class="textBox">
+                    <h2>Helvetica</h2>
+                    <p>Helvetica or Neue Haas Grotesk is a widely used sans-serif typeface developed in 1957
+                        by Swiss typeface designer Max Miedinger </p>
+                    <a href="./images/Helvetica.png">Here's why</a>
+                </div>
+            </article>
 
+        </div>
+    </div>
 </main>
 
-<footer>
-    <p>University of Michigan School of Information <br/>
-        &copy; Colleen van Lent, Drew Asselin - Web Design 2019-2020</p>
-</footer>
+
+<!--<footer>-->
+<!--    <p>University of Michigan School of Information <br/>-->
+<!--        &copy; Shiyu Xu</p>-->
+<!--</footer>-->
 </body>
 </html>

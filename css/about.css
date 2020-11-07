@@ -1,0 +1,47 @@
+/* generic */
+
+
+
+.heading{
+    font-size: 40px;
+}
+#box{
+    width: 70%;
+    /*position:relative;*/
+    margin:10% auto;
+    min-height:200px;
+    z-index:100;
+    padding:30px;
+    background-color: white;
+}
+
+
+
+/** inputs and textarea**/
+input:not([type="submit"]), textarea{
+    outline:none;
+    display:block;
+    width:90%;
+    padding:4px 8px;
+    border:1px dashed #DBDBDB;
+    color:#3F3F3F;
+    font-size:14px;
+}
+
+.required{
+    color:#E5224C;
+}
+
+textarea{
+    min-height:150px;
+    resize:vertical
+}
+
+p{
+    margin-bottom:20px;
+}
+
+
+
+
+
