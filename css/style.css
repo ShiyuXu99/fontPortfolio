@@ -39,7 +39,7 @@ footer{
 
 .logo{
     font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 30px;
+    font-size: 18px;
 }
 ul {
     list-style-type: none;
@@ -47,8 +47,8 @@ ul {
     /*padding: 0;*/
     overflow: hidden;
     background-color: #0B1630;
-    font-size: 16px;
-    padding:14px 24px;
+    font-size: 14px;
+    padding:12px 12px 12px 12px;
 }
 li {
     float: left;
@@ -58,8 +58,11 @@ li a, .dropdownBtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 12px 16px;
     text-decoration: none;
+}
+
+li a {
+    padding: 12px ;
 }
 
 .aboutPage{
@@ -73,11 +76,11 @@ li a, .dropdownBtn {
 }
 
 .dropdown .dropdownBtn {
-    font-size: 16px;
+    font-size: 14px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 24px;
+    padding: 14px 20px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -228,5 +231,86 @@ ul a:hover, .dropdown:hover .dropdownBtn {
         font-size: 12px;
         opacity: 0.5;
     }
+
+
+
+
+    .logo{
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        font-size: 30px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        /*padding: 0;*/
+        overflow: hidden;
+        background-color: #0B1630;
+        font-size: 16px;
+        padding:14px 24px;
+    }
+    li {
+        float: left;
+    }
+
+    li a, .dropdownBtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+
+    .aboutPage{
+        padding-top: 2.5px;
+        float: right;
+    }
+
+    .dropdown {
+        float: right;
+        overflow: auto;
+    }
+
+    .dropdown .dropdownBtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 24px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+
+
+    ul a:hover, .dropdown:hover .dropdownBtn {
+        color: #6ADEFA;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        background-color: #0B1630;
+        min-width: 138px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .dropdown-content a {
+        text-align: center;
+        font-size: 14px;
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #2A3550;
+        text-decoration: underline;
+        color: white;
+    }
+
 
 }
