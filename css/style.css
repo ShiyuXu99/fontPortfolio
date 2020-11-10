@@ -154,10 +154,12 @@ ul a:hover, .dropdown:hover .dropdownBtn {
 }
 .grid-item {
     padding: 20px;
+    min-width: 100px;
 }
 .grid-item-text{
     width: auto;
-    padding: 15px;
+    min-width: 50px;
+    padding: 18px;
     padding-bottom: 30px;
     font-size: 16px;
     color: white;
