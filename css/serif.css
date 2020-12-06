@@ -9,25 +9,21 @@ footer{
 }
 
 
-
-ul {
+.navbar {
     background-color: #101f30;
-
 }
 
-
-.dropdown-content {
-    background-color: #101f30;
-
-}
-
-ul a:hover, .dropdown:hover .dropdownBtn {
+.links:hover, li a:hover{
     color: #9EC3EF;
+    text-decoration: underline;
 }
 
-.dropdown-content a:hover {
-    background-color: #203955;
-    /*transform: translateY(0);*/
+/*
+skip to content link
+ */
+.skip {
+    background: #101f30;
+    color: #9EC3EF;
 }
 
 
@@ -74,15 +70,22 @@ ul a:hover, .dropdown:hover .dropdownBtn {
 }
 
 
-.links{
-    margin-top: 30px;
-    color: white;
-    font-size: 14px;
-}
+/*.links{*/
+/*    margin-top: 30px;*/
+/*    color: white;*/
+/*    font-size: 14px;*/
+/*}*/
 a.visitLink{
     color: white;
 }
 
 a.visitLink:visited{
     color: lightgrey;
+}
+
+@media screen and (min-width: 768px) {
+    .links:hover, li a:hover{
+        color: #9EC3EF;
+        background-color: #203955;
+    }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>-->
+    <script src="https://kit.fontawesome.com/22abbd49b7.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/about.css">
@@ -12,24 +12,29 @@
 </head>
 <body>
 <header>
-    <a name="top"></a>
-    <ul>
-        <li><a href="./index.html" class = "logo">Typography</a></li>
-        <li class="dropdown">
-            <button class="dropdownBtn">CONTENTS</button>
-            <div class="dropdown-content">
-                <a href="./index.html">Homepage</a>
-                <a href="./sans_serif.html">Sans-Serif </br>Typeface</a>
-                <a href="./serif.html">Serif </br>Typeface</a>
-<!--                <a href="./script.html">Script </br> Typeface</a>-->
-            </div>
-        </li>
-        <li class = "aboutPage"><a href="about.html" >ABOUT</a></li>
-    </ul>
-</header>
-<main class="about" id="skip" tabindex="0">
+    <a class="skip" href='#content'>Skip to content</a>
 
-    <h1>About Me</h1>
+    <nav class="navbar">
+    <span class="toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">About Me</a>
+        <ul class="main-nav" id="js-menu">
+            <li class = "block">
+                <a href="./index.html" class="links">Homepage</a>
+            </li>
+            <li class = "block">
+                <a href="./sans_serif.html" class="links">Sans-Serif </a>
+            </li>
+            <li class = "block">
+                <a href="./serif.html" class="links">Serif</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="about" tabindex="0">
+
+    <h1 class = "content">About Me</h1>
     <div id="box">
         <p class = "heading"> Contact me </p>
         <form action=" " method="post"  autocomplete="on">
@@ -54,5 +59,7 @@
     <p>University of Michigan School of Information <br/>
         &copy; Shiyu Xu</p>
 </footer>
+<script src="myJs.js"></script>
+
 </body>
 </html>

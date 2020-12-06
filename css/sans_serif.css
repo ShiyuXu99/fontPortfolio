@@ -8,24 +8,28 @@ footer{
 
 }
 
-
-
-ul {
+.navbar {
     background-color: #0E2026;
-
 }
 
+.links:hover, li a:hover{
+    color: #85E2E2;
+    text-decoration: underline;
+}
 
 .dropdown-content {
     background-color: #0E2026;
-
 }
 
 
-.dropdown-content a:hover {
-    background-color: #2C5159;
-    /*transform: translateY(0);*/
+/*
+skip to content link
+ */
+.skip {
+    background: #0E2026;
+    color: #85E2E2;
 }
+
 
 
 #introductionP{
@@ -71,15 +75,22 @@ ul {
 }
 
 
- .links{
-    margin-top: 30px;
-    color: white;
-    font-size: 14px;
-}
  a.visitLink{
      color: white;
  }
 
 a.visitLink:visited{
     color: lightgrey;
+}
+
+#roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+    .links:hover, li a:hover{
+        color: #85E2E2;
+        background-color: #2C5159;
+    }
 }

@@ -7,34 +7,47 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22abbd49b7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <title>HomePage</title>
 </head>
 <body>
 <header>
-<!--    <img src="images/logo.png" alt="logo" id = "logo">-->
-    <a name="top"></a>
+    <a class="skip" href='#content'>Skip to content</a>
 
-    <ul>
-        <li><a href="./index.html" class = "logo">Typography</a></li>
-        <li class="dropdown">
-            <button class="dropdownBtn">CONTENTS</button>
-            <div class="dropdown-content">
-                <a href="./sans_serif.html">Sans-Serif </br>Typeface</a>
-                <a href="./serif.html">Serif </br>Typeface</a>
-<!--                <a href="./script.html">Script </br> Typeface</a>-->
-            </div>
-        </li>
-        <li class = "aboutPage"><a href="about.html" >ABOUT</a></li>
-    </ul>
+    <nav class="navbar">
+    <span class="toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+        </span>
+            <a href="#" class="logo">Typography</a>
+            <ul class="main-nav" id="js-menu">
+                <li class = "block">
+                    <a href="./sans_serif.html" class="links">Sans-Serif</a>
+                </li>
+                <li class = "block">
+                    <a href="./serif.html" class="links">Serif</a>
+                </li>
+                <li class = "block">
+                    <a href="./about.html" class="links">About</a>
+                </li>
+            </ul>
+        </nav>
 
 
 </header>
-<main class="homepage" tabindex="0">
+<!--<main class="homepage" tabindex="0">-->
 
-    <img src="./images/Typography.png" alt="Typography Image" width="100%" class = "images">
+<!--    <img src="./images/Typography.png" alt="Typography Image" width="100%" class = "images">-->
 
-    <h1>Introduction</h1>
-    <div class="flex-container">
+<div class="parallax"></div>
+    <div style="margin: 30px">
+
+    <h1 id = "content">Introduction</h1>
+    </div>
+
+
+<div class="flex-container">
         <div class="grid-container">
             <div class="grid-item">
                 <img src="./images/T.png" alt="Typography Image" width="100%" class = "images">
@@ -158,5 +171,6 @@
     <p>University of Michigan School of Information <br/>
         &copy; Shiyu Xu</p>
 </footer>
+<script src="myJs.js"></script>
 </body>
 </html>
