@@ -38,6 +38,36 @@ skip to content link
     padding: 40px;
 }
 
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    padding-top: 45%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    margin: 10% 10% 0 10%;
+
+    align-items: center;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+
+}
+
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 430px;}
+}
+
+
+
 
 
 .container{
@@ -63,10 +93,16 @@ skip to content link
 }
 
 .gridItems .textBox {
-    padding: 20px;
+    padding: 60% 20px 20px 20px;
     color: white;
     font-size: 16px;
+    min-height: 300px;
+}
 
+
+
+.text-heading{
+    display: none;
 }
 
 .gridItems h2{
@@ -81,10 +117,6 @@ skip to content link
 
 a.visitLink:visited{
     color: lightgrey;
-}
-
-#roboto{
-    font-family: 'Roboto', sans-serif;
 }
 
 

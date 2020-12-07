@@ -18,31 +18,35 @@
 
 
 
-/** inputs and textarea**/
-input:not([type="submit"]), textarea{
-    outline:none;
-    display:block;
-    width:90%;
-    padding:4px 8px;
-    font-size:14px;
-}
+/*!** inputs and textarea**!*/
+/*input:not([type="submit"]), textarea{*/
+/*    outline:none;*/
+/*    display:block;*/
+/*    width:90%;*/
+/*    padding:4px 8px;*/
+/*    font-size:14px;*/
+/*}*/
 
-.required{
-    color:#E5224C;
-}
-.textHeading{
-    color: white;
-}
-textarea{
-    min-height:150px;
-    resize:vertical
-}
+/*.required{*/
+/*    color:#E5224C;*/
+/*}*/
+/*.textHeading{*/
+/*    color: white;*/
+/*}*/
+/*textarea{*/
+/*    min-height:150px;*/
+/*    resize:vertical*/
+/*}*/
 
-p{
-    margin-bottom:20px;
+/*p{*/
+/*    margin-bottom:20px;*/
+/*}*/
+
+
+.form-card{
+    margin: 10% 20% 10% 20%;
+    padding: 20px;
+    background-color: white;
 }
-
-
-
 
 

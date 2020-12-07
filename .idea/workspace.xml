@@ -11,15 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa17bd49-e0fc-4362-b012-6cfad29701c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sans_serif.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sans_serif.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/serif.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/serif.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Garamond.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Helvetica.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Helvetica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/futura.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sans_serif.html" beforeDir="false" afterPath="$PROJECT_DIR$/sans_serif.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serif.html" beforeDir="false" afterPath="$PROJECT_DIR$/serif.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <workItem from="1605312197958" duration="29000" />
       <workItem from="1605319528750" duration="2036000" />
       <workItem from="1605499321551" duration="221000" />
-      <workItem from="1607184407869" duration="18007000" />
+      <workItem from="1607184407869" duration="27827000" />
     </task>
     <servers />
   </component>
