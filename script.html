@@ -3,26 +3,39 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
+    <script src="https://kit.fontawesome.com/22abbd49b7.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/script.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Sans Serif Fonts</title>
 </head>
 <body>
 <header>
-    <!--    <img src="images/logo.png" alt="logo" id = "logo">-->
-    <nav>
-        <ul class="nav_links">
-            <li class="nav_item"><a href="./index.html">Home page</a></li>
-            <li class="nav_item"><a href="./serif.html">Serif Typeface</a></li>
-            <li class="nav_item"><a href="./script.html">Script Typeface</a></li>
-        </ul>
-    </nav>
+
 </header>
 <main class="about" id="skip" tabindex="0">
     <h1>Sans Serif Fonts</h1>
+
+
+    <form>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <button onclick="chosetype()">Click me</button>
+
+    </form>
+
+    <p id = "answer-me"></p>
+
+
+
 
 </main>
 
@@ -30,5 +43,16 @@
     <p>University of Michigan School of Information <br/>
         &copy; Colleen van Lent, Drew Asselin - Web Design 2019-2020</p>
 </footer>
+<script src="myJs.js"></script>
+<script>
+    function chosetype(){
+        document.getElementById("answer-me").innerHTML = "hahahhahahahhahah";
+        console.log("reached");
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
