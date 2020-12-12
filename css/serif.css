@@ -10,6 +10,7 @@ footer{
 
 h1{
     color: #9EC3EF;
+    font-family: "Garamond Premier Pro", serif;
 
 }
 
@@ -37,6 +38,22 @@ skip to content link
     padding: 40px;
 }
 
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 250px;}
+}
+
+.content {
+    border-right: solid 3px #9EC3EF;;
+}
+
+@keyframes animated-cursor{
+    from{border-right-color: #9EC3EF;}
+    to{border-right-color: transparent;}
+}
+
+
+
 
 
 .iframe-container {
@@ -45,7 +62,6 @@ skip to content link
     width: 80%;
     padding-top: 45%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
     margin: 10% 10% 0 10%;
-
     align-items: center;
 }
 
@@ -62,10 +78,6 @@ skip to content link
 }
 
 
-@keyframes animated-text{
-    from{width: 0;}
-    to{width: 450px;}
-}
 
 
 .container{
@@ -94,7 +106,7 @@ skip to content link
     margin: 60% 10px 0px 10px;
     color: white;
     font-size: 16px;
-    min-height: 150px;
+    min-height: 200px;
 }
 
 
@@ -122,6 +134,7 @@ a.card-links:visited {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: end;
 }
 
 .tag-border{

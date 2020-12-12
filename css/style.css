@@ -126,7 +126,7 @@ parallax image here
     background-size: cover;
 }
 
-#content {
+.content {
     border-right: solid 3px #6ADEFA;;
     white-space: nowrap;
     overflow: hidden;
@@ -136,7 +136,7 @@ parallax image here
 }
 
 /* Animation */
-#content {
+.content {
     animation: animated-text 4s steps(29,end) 1s 1 normal both,
     animated-cursor 900ms steps(29,end) infinite;
 }
@@ -151,7 +151,7 @@ parallax image here
 
 
 @media (prefers-reduced-motion) {
-    #content {
+    .content {
         animation: none;
         border: none;
         text-align: center;

@@ -1,15 +1,4 @@
-<?php
 
-if($_POST["message"]) {
-
-mail("your@email.address", "Here is the subject line",
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-}
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,7 +32,7 @@ $_POST["insert your message here"]. "From: an@email.address");
     <span class="toggle" id="js-navbar-toggle">
         <i class="fas fa-bars"></i>
         </span>
-        <a href="#" class="logo">About Me</a>
+        <a href="#" class="logo">About</a>
         <ul class="main-nav" id="js-menu">
             <li class = "block">
                 <a href="./index.html" class="links">Homepage</a>
@@ -59,29 +48,21 @@ $_POST["insert your message here"]. "From: an@email.address");
 </header>
 <main class="about" tabindex="0">
 
-    <h1 class = "content">About Me</h1>
-<!--    <div id="box">-->
-<!--        <p class = "heading"> Contact me </p>-->
-<!--        <form action=" " method="post"  autocomplete="on">-->
-<!--            <p class = "textHeading">  Name <span class="required">*</span>-->
-<!--                <input type="text" name="username" id="username"  required="required"/> </p>-->
-
-<!--            <p class = "textHeading">  E-mail address <span class="required">*</span>-->
-<!--               <input type="email" name="usermail" id="usermail" required="required"/> </p>-->
-
-<!--            <p class = "textHeading">Message<textarea ></textarea> </p>-->
-<!--            <input type="submit" value=" submit" />-->
-<!--        </form>-->
-<!--    </div>-->
+    <h1 class = "content">About this Web</h1>
+    <p id="introductionP">This website is for people who want a basic understanding of Typeface. It specifically introduced each part of the character,
+        and it introduced two important types of fonts: Sans-serif fonts and Serif fonts.<br>
+        Another intention of the website is to help people who do UI interface design of app and websites to find their suitable fonts.<br>
+        The fonts I listed on the webpages are carefully choose and they are all suitable fonts for applications and websites, they are excellent in legibility as well as elegancy.
+    </p>
 
     <div class = "form-card">
     <form >
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
+            <label for="exampleInputEmail1">Your Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
         <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <label for="exampleFormControlTextarea1">Tell me some feedbacks!</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>

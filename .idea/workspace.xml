@@ -12,6 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fa17bd49-e0fc-4362-b012-6cfad29701c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sans_serif.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sans_serif.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/serif.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/serif.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
@@ -75,7 +77,8 @@
       <workItem from="1605319528750" duration="2036000" />
       <workItem from="1605499321551" duration="221000" />
       <workItem from="1607184407869" duration="29936000" />
-      <workItem from="1607651924908" duration="11083000" />
+      <workItem from="1607651924908" duration="11110000" />
+      <workItem from="1607736957804" duration="4196000" />
     </task>
     <servers />
   </component>
